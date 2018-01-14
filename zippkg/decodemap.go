@@ -10,6 +10,7 @@ package zippkg
 import (
 	"archive/zip"
 	"path/filepath"
+	"strings"
 
 	"baliance.com/gooxml/schema/soo/pkg/relationships"
 )
@@ -64,7 +65,7 @@ func (d *DecodeMap) AddTarget(filePath string, ifc interface{}, sourceFileType s
 		d.decoded = make(map[string]struct{})
 		d.indices = make(map[string]int)
 	}
-	fn := filepath.Clean(filePath)
+	fn := strings.Replace(filepath.Clean(filePath),"\\","/",-1)
 	if _, ok := d.decoded[fn]; ok {
 		// already decoded this file
 		return false
