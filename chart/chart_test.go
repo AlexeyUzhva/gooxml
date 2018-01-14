@@ -10,8 +10,8 @@ package chart_test
 import (
 	"testing"
 
-	"baliance.com/gooxml/chart"
-	crt "baliance.com/gooxml/schema/soo/dml/chart"
+	"github.com/AlexeyUzhva/gooxml/chart"
+	crt "github.com/AlexeyUzhva/gooxml/schema/soo/dml/chart"
 )
 
 func TestTitle(t *testing.T) {

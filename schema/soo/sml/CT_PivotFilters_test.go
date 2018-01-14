@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"baliance.com/gooxml/schema/soo/sml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/sml"
 )
 
 func TestCT_PivotFiltersConstructor(t *testing.T) {

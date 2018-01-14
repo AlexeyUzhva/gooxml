@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"strings"
 
-	"baliance.com/gooxml"
-	"baliance.com/gooxml/schema/soo/pkg/relationships"
+	"github.com/AlexeyUzhva/gooxml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/pkg/relationships"
 )
 
 // Relationships represents a .rels file.

@@ -8,7 +8,7 @@
 package presentation
 
 import (
-	"baliance.com/gooxml/schema/soo/pml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/pml"
 )
 
 // SlideLayout

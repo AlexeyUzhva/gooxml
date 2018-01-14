@@ -10,8 +10,8 @@ package document
 import (
 	"log"
 
-	"baliance.com/gooxml"
-	"baliance.com/gooxml/schema/soo/wml"
+	"github.com/AlexeyUzhva/gooxml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/wml"
 )
 
 // Section is the beginning of a new section.

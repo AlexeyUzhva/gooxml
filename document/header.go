@@ -7,7 +7,7 @@
 
 package document
 
-import "baliance.com/gooxml/schema/soo/wml"
+import "github.com/AlexeyUzhva/gooxml/schema/soo/wml"
 
 // Header is a header for a document section.
 type Header struct {

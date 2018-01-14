@@ -3,9 +3,9 @@
 package main
 
 import (
-	"baliance.com/gooxml/document"
-	"baliance.com/gooxml/measurement"
-	"baliance.com/gooxml/schema/soo/wml"
+	"github.com/AlexeyUzhva/gooxml/document"
+	"github.com/AlexeyUzhva/gooxml/measurement"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/wml"
 )
 
 func main() {

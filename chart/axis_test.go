@@ -10,7 +10,7 @@ package chart_test
 import (
 	"testing"
 
-	"baliance.com/gooxml/chart"
+	"github.com/AlexeyUzhva/gooxml/chart"
 )
 
 func TestNullAxis(t *testing.T) {

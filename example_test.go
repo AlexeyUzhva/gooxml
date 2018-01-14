@@ -1,8 +1,8 @@
 package gooxml_test
 
 import (
-	"baliance.com/gooxml/document"
-	"baliance.com/gooxml/spreadsheet"
+	"github.com/AlexeyUzhva/gooxml/document"
+	"github.com/AlexeyUzhva/gooxml/spreadsheet"
 )
 
 func Example_document() {

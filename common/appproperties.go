@@ -10,8 +10,8 @@ package common
 import (
 	"strings"
 
-	"baliance.com/gooxml"
-	"baliance.com/gooxml/schema/soo/ofc/extended_properties"
+	"github.com/AlexeyUzhva/gooxml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/ofc/extended_properties"
 )
 
 // AppProperties contains properties specific to the document and the
@@ -24,7 +24,7 @@ type AppProperties struct {
 func NewAppProperties() AppProperties {
 	p := AppProperties{x: extended_properties.NewProperties()}
 	p.SetCompany("Baliance LLC")
-	p.SetApplication("baliance.com/gooxml")
+	p.SetApplication("github.com/AlexeyUzhva/gooxml")
 	p.SetApplicationVersion(strings.Replace(gooxml.ReleaseVersion, "v", "", -1))
 	return p
 }

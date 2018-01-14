@@ -12,7 +12,7 @@ package content_types
 import (
 	"encoding/xml"
 
-	"baliance.com/gooxml"
+	"github.com/AlexeyUzhva/gooxml"
 )
 
 type Types struct {

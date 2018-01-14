@@ -8,8 +8,8 @@
 package document
 
 import (
-	"baliance.com/gooxml"
-	"baliance.com/gooxml/schema/soo/wml"
+	"github.com/AlexeyUzhva/gooxml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/wml"
 )
 
 // NumberingLevel is the definition for numbering for a particular level within

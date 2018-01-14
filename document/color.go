@@ -10,8 +10,8 @@ package document
 import (
 	"fmt"
 
-	"baliance.com/gooxml/color"
-	"baliance.com/gooxml/schema/soo/wml"
+	"github.com/AlexeyUzhva/gooxml/color"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/wml"
 )
 
 // Color controls the run or styles color.

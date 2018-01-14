@@ -10,8 +10,8 @@ package spreadsheet
 import (
 	"errors"
 
-	"baliance.com/gooxml"
-	"baliance.com/gooxml/schema/soo/sml"
+	"github.com/AlexeyUzhva/gooxml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/sml"
 )
 
 // StyleSheet is a document style sheet.

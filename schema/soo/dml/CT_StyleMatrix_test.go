@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"baliance.com/gooxml/schema/soo/dml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/dml"
 )
 
 func TestCT_StyleMatrixConstructor(t *testing.T) {

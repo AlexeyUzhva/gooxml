@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"baliance.com/gooxml/schema/soo/pml"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/pml"
 )
 
 func TestEG_ShowTypeConstructor(t *testing.T) {

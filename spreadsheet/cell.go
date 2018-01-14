@@ -15,11 +15,11 @@ import (
 	"strconv"
 	"time"
 
-	"baliance.com/gooxml"
-	"baliance.com/gooxml/common"
-	"baliance.com/gooxml/schema/soo/sml"
-	"baliance.com/gooxml/spreadsheet/format"
-	"baliance.com/gooxml/spreadsheet/reference"
+	"github.com/AlexeyUzhva/gooxml"
+	"github.com/AlexeyUzhva/gooxml/common"
+	"github.com/AlexeyUzhva/gooxml/schema/soo/sml"
+	"github.com/AlexeyUzhva/gooxml/spreadsheet/format"
+	"github.com/AlexeyUzhva/gooxml/spreadsheet/reference"
 )
 
 const iso8601Format = "2006-01-02T15:04:05Z07:00"
